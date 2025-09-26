@@ -134,6 +134,9 @@ section p {
   margin: auto;
   padding: 1em 0;
 }
+.mario {
+  font-size: 13px;
+}
 /* ELEMENTI MAIN - DIV*/
 
 .articoli {
