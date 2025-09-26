@@ -1,1 +1,181 @@
-/* Your styles here */
+/* BODY */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #25a2c3;
+  margin: 0.5em 0; /* 1em sopra e sotto, 0 dx e sx */
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin: 1em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+p {
+  margin: 0.25em 0;
+  text-align: center;
+  justify-content: left;
+}
+
+ol,
+ul {
+  padding-left: 2em;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+table {
+  margin: 1em 0;
+}
+body {
+  font-family: Open Sans;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: #393d41;
+}
+/* HEADER */
+header {
+  background-color: black;
+}
+#logo {
+  width: 40%;
+  margin: 10% 30%;
+}
+
+/* NAV */
+nav {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 420px;
+}
+h1 {
+  margin-top: 0;
+  padding-top: 1em;
+}
+nav p {
+  text-align: center;
+  margin: 0 0.6em;
+}
+
+#button {
+  font-weight: bold;
+  font-size: medium;
+  text-transform: uppercase;
+  display: block;
+  margin: 2em auto 2em auto;
+  padding: 1em 3em;
+  background-color: #f04c2f;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+/* MAIN */
+img {
+  width: 100%;
+}
+/*ELEMENTI MAIN - SECTION  */
+section {
+  margin-top: 2em;
+  padding: 0.5em;
+}
+section p {
+  margin: 0 2em;
+}
+#laptop {
+  text-align: center;
+  border-radius: 100%;
+  width: 90%;
+  height: 80%;
+  margin: 5%;
+}
+
+.verita {
+  padding-bottom: 2em;
+}
+
+#garanzie {
+  background-color: #e22d0e;
+  padding: 2em 2em 0.1em 2em;
+}
+
+#garanzie h2,
+#garanzie p {
+  text-align: center;
+  color: white;
+}
+
+.cit {
+  font-style: italic;
+  margin: auto;
+  padding: 1em 0;
+}
+/* ELEMENTI MAIN - DIV*/
+
+.articoli {
+  margin: 2em;
+  border: 1px solid #dee1e3;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.articoli h4 {
+  text-align: center;
+}
+.articoli p {
+  text-align: center;
+  margin-bottom: 1.8em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+div:last-of-type {
+  margin-bottom: 4em;
+}
+/* FOOTER */
+footer {
+  text-align: center;
+  color: #c8e7f0;
+  background-color: #25a2c3;
+  padding-top: 1.5em;
+  padding-bottom: 4em;
+}
+footer h2 {
+  text-align: center;
+  color: white;
+}
+footer ul,
+footer a {
+  text-align: center;
+  list-style-type: none;
+  color: #c8e7f0;
+}
+footer #address {
+  text-decoration: none;
+}
+footer hr {
+  width: 50%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
