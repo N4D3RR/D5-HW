@@ -14,7 +14,7 @@ h6 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   margin: 1em;
 }
@@ -31,7 +31,6 @@ h3 {
 p {
   margin: 0.25em 0;
   text-align: center;
-  justify-content: left;
 }
 
 ol,
@@ -61,8 +60,8 @@ header {
   background-color: black;
 }
 #logo {
-  width: 40%;
-  margin: 10% 30%;
+  width: 13%;
+  margin: 1% 3%;
 }
 
 /* NAV */
@@ -70,90 +69,121 @@ nav {
   background-image: url(../images/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 420px;
+  height: 500px;
 }
 /* margin-top 0 per togliere lo spazio tra <header> e <nav> */
 h1 {
   margin-top: 0;
-  padding-top: 1em;
+  margin-bottom: 0;
+  padding-top: 5em;
 }
 nav p {
   text-align: center;
-  margin: 0 0.6em;
+  margin: 0 30%;
+  font-size: 15px;
 }
 
 #button {
   font-weight: bold;
-  font-size: medium;
+  font-size: small;
   text-transform: uppercase;
   display: block;
   margin: 2em auto 2em auto;
-  padding: 1em 3em;
+  padding: 1em 2em;
   background-color: #f04c2f;
   color: white;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 /* MAIN */
-img {
-  width: 100%;
-}
+
 /*ELEMENTI MAIN - SECTION  */
-section {
-  margin-top: 2em;
-  padding: 0.5em;
+
+#cosafarai .cosafarai {
+  width: 49%;
+  text-align: justify;
+  margin-top: 17%;
+  margin-bottom: 12%;
+  margin-left: 5%;
 }
-section p {
-  margin: 0 2em;
+#cosafarai img,
+#cosafarai .cosafarai {
+  display: inline-block;
 }
-#laptop {
-  text-align: center;
-  border-radius: 100%;
-  width: 90%;
-  height: 80%;
-  margin: 5%;
+#cosafarai img {
+  text-align: left;
+  width: 30%;
+  margin-right: 10px;
+  margin-left: 100px;
+  border-radius: 50%;
+}
+
+#cosafarai h3 {
+  color: #25a2c3;
+  text-align: justify;
+  font-size: 16px;
+}
+
+#cosafarai p {
+  font-size: 14px;
+  text-align: justify;
+  margin-right: 25%;
 }
 
 .verita {
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
 }
 
 #garanzie {
   background-color: #e22d0e;
-  padding: 2em 2em 0.1em 2em;
+  padding: 2% 0em 1em 0em;
 }
 
 #garanzie h2,
 #garanzie p {
   text-align: center;
   color: white;
+  font-size: 1em;
+}
+.mario {
+  font-size: 11px;
 }
 
 .cit {
   font-style: italic;
   margin: auto;
-  padding: 1em 0;
+  padding: 0 0;
 }
 /* ELEMENTI MAIN - DIV*/
-
+.box-articoli {
+  border-spacing: 3em;
+}
 .articoli {
-  margin: 2em;
+  display: table-cell;
+
+  width: 25%;
+  margin: 5%;
+  text-align: center;
+
+  vertical-align: top;
   border: 1px solid #dee1e3;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+div img {
+  width: 100%;
+  height: 270px;
 }
 .articoli h4 {
   text-align: center;
 }
 .articoli p {
   text-align: center;
-  margin-bottom: 1.8em;
   margin-left: 1em;
   margin-right: 1em;
 }
-div:last-of-type {
-  margin-bottom: 4em;
-}
+
 /* FOOTER */
 footer {
   text-align: center;
@@ -165,18 +195,25 @@ footer {
 footer h2 {
   text-align: center;
   color: white;
+  margin-left: 25%;
+  margin-right: 38%;
 }
 footer ul,
+footer li,
 footer a {
-  text-align: center;
+  text-align: justify;
   list-style-type: none;
   color: #c8e7f0;
+}
+footer li {
+  margin-left: 37%;
+  margin-right: 37%;
 }
 footer #address {
   text-decoration: none;
 }
 footer hr {
-  width: 50%;
+  width: 22%;
   margin-top: 2em;
   margin-bottom: 2em;
 }
